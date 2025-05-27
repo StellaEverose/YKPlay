@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#hero-section,
+#allies-section,
+#enemy-section,
+#upgrades-section,
+#log-section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+#hero-section {
+    background-color: #e6f7ff;
+}
+
+#allies-section {
+    background-color: #e6ffe6;
+}
+
+#enemy-section {
+    background-color: #ffe6e6;
+}
+
+#upgrades-section {
+    background-color: #fff0e6;
+}
+
+#log-section {
+    background-color: #f9f9f9;
+    min-height: 100px;
+}
